@@ -14,4 +14,5 @@ RUN set -e -x \
 #
 # finish installation
 #
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && rm -rf /root/.cache/pip
