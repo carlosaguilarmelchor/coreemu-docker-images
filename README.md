@@ -26,13 +26,13 @@ This image builds upon coreemu-base by adding terminal tools:
 ### coreemu-termnettools
 
 This image builds upon coreemu-termtools by adding networking tools:
-  * knot-host; for DNS
+  * knot-host for DNS;
   * iperf3 mtr-tiny net-tools iproute2 ifupdown inetutils-ping tcpdump for network testing/administration;
   * openssh-client ncat socat telnet wget curl ca-certificates to act as client/server for different protocols.
 
 ### coreemu-sniffer
 
-This image builds upon coreemu-termnettools by adding more advanced sniffing toosl:
+This image builds upon coreemu-termnettools by adding more advanced sniffing tools:
   * termshark (and tshark implicitly) for command-line/terminal usage of wireshark;
   * tcpflow as a simple tcp flow reconstruction utility. 
 
